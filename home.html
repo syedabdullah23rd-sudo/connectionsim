@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CONNECTIONZIM - Home Feed</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="home.css">
+    <link rel="stylesheet" href="loader.css">
+   
+</head>
+<body>
+    <!-- Add this right after <body> tag -->
+    <div class="loader-container">
+        <div class="loader">
+            <div class="logo-animation">
+                <i class="bi bi-box logo-icon"></i>
+                <div class="logo-text">
+                    <span style="animation-delay: 0.1s">C</span>
+                    <span style="animation-delay: 0.2s">O</span>
+                    <span style="animation-delay: 0.3s">N</span>
+                    <span style="animation-delay: 0.4s">N</span>
+                    <span style="animation-delay: 0.5s">E</span>
+                    <span style="animation-delay: 0.6s">C</span>
+                    <span style="animation-delay: 0.7s">T</span>
+                    <span style="animation-delay: 0.8s">I</span>
+                    <span style="animation-delay: 0.9s">O</span>
+                    <span style="animation-delay: 1.0s">N</span>
+                    <span style="animation-delay: 1.1s">Z</span>
+                    <span style="animation-delay: 1.2s">I</span>
+                    <span style="animation-delay: 1.3s">M</span>
+                </div>
+            </div>
+            <div class="loading-bar"></div>
+        </div>
+    </div>
+
+    <!-- Keep the same sidebar from previous design -->
+    <div class="container">
+        <aside class="sidebar">
+            <div class="logo">
+                <i class="bi bi-box"></i>
+                <span>CONNECTIONZIM</span>
+            </div>
+            
+            <div class="search-container">
+                <i class="bi bi-search"></i>
+                <input type="text" placeholder="Search">
+            </div>
+
+            <nav class="nav-menu">
+                <a href="home.html" class="nav-item active">
+                    <i class="bi bi-house"></i>
+                    <span>Home</span>
+                </a>
+                <a href="index.html" class="nav-item">
+                    <i class="bi bi-speedometer2"></i>
+                    <span>Dashboard</span>
+                </a>
+                <a href="#" class="nav-item">
+                    <i class="bi bi-folder"></i>
+                    <span>Projects</span>
+                </a>
+                <a href="#" class="nav-item">
+                    <i class="bi bi-check2-square"></i>
+                    <span>Tasks</span>
+                </a>
+                <a href="#" class="nav-item">
+                    <i class="bi bi-graph-up"></i>
+                    <span>Reporting</span>
+                </a>
+                <a href="#" class="nav-item">
+                    <i class="bi bi-people"></i>
+                    <span>Designers</span>
+                </a>
+            </nav>
+
+            <div class="sub-menu">
+                <a href="#" class="sub-item">All designers</a>
+                <a href="#" class="sub-item">Popular</a>
+                <a href="#" class="sub-item">Recently added</a>
+            </div>
+
+            <div class="bottom-menu">
+                <a href="#" class="nav-item">
+                    <i class="bi bi-question-circle"></i>
+                    <span>Support</span>
+                </a>
+                <a href="#" class="nav-item">
+                    <i class="bi bi-gear"></i>
+                    <span>Settings</span>
+                </a>
+                <div class="user-profile">
+                    <img src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=32&h=32&fit=crop" alt="Profile" class="avatar">
+                    <div class="user-info">
+                        <span class="name">Frankie Sullivan</span>
+                        <span class="handle">@frankie</span>
+                    </div>
+                </div>
+            </div>
+        </aside>
+
+        <main class="main-content">
+            <!-- Stories/Highlights Section -->
+            <section class="stories-section">
+                <div class="stories-container">
+                    <div class="story-card add-story">
+                        <div class="story-add-icon">
+                            <i class="bi bi-plus-circle-fill"></i>
+                        </div>
+                        <span>Add Story</span>
+                    </div>
+                    <div class="story-card">
+                        <img src="https://images.unsplash.com/photo-1542744094-24638eff58bb?w=400&h=600&fit=crop" alt="Story" class="story-image">
+                        <div class="story-info">
+                            <div class="story-avatar">
+                                <img src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=120&h=120&fit=crop" alt="Sarah">
+                            </div>
+                            <span>Sarah Chen</span>
+                        </div>
+                    </div>
+                    <div class="story-card">
+                        <img src="https://images.unsplash.com/photo-1573164713714-d95e436ab8d6?w=400&h=600&fit=crop" alt="Story" class="story-image">
+                        <div class="story-info">
+                            <div class="story-avatar">
+                                <img src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=120&h=120&fit=crop" alt="Alex">
+                            </div>
+                            <span>Alex Morrison</span>
+                        </div>
+                    </div>
+                    <div class="story-card">
+                        <img src="https://images.unsplash.com/photo-1573867639040-6dd25fa5f597?w=400&h=600&fit=crop" alt="Story" class="story-image">
+                        <div class="story-info">
+                            <div class="story-avatar">
+                                <img src="https://images.unsplash.com/photo-1517841905240-472988babdf9?w=120&h=120&fit=crop" alt="Emma">
+                            </div>
+                            <span>Emma Watson</span>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Create Post Section -->
+            <section class="create-post">
+                <div class="post-input-wrapper">
+                    <img src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=120&h=120&fit=crop" alt="Your avatar" class="user-avatar">
+                    <div class="post-input">
+                        <input type="text" placeholder="Share your design thoughts...">
+                    </div>
+                </div>
+                <div class="post-actions">
+                    <button class="post-action-btn">
+                        <i class="bi bi-image"></i>
+                        <span>Image</span>
+                    </button>
+                    <button class="post-action-btn">
+                        <i class="bi bi-play-circle"></i>
+                        <span>Video</span>
+                    </button>
+                    <button class="post-action-btn">
+                        <i class="bi bi-link-45deg"></i>
+                        <span>Link</span>
+                    </button>
+                    <button class="btn btn-primary"><a href="postbutton.php">Post</a></button>
+                </div>
+            </section>
+
+            <!-- Feed Filters -->
+            <section class="feed-filters">
+                <button class="filter-btn active">
+                    <i class="bi bi-stars"></i>
+                    Featured
+                </button>
+                <button class="filter-btn">
+                    <i class="bi bi-graph-up-arrow"></i>
+                    Trending
+                </button>
+                <button class="filter-btn">
+                    <i class="bi bi-clock"></i>
+                    Recent
+                </button>
+                <button class="filter-btn">
+                    <i class="bi bi-bookmark"></i>
+                    Saved
+                </button>
+            </section>
+
+            <!-- Feed Content -->
+            <section class="feed-content">
+                <!-- Post Cards (Similar to previous design but enhanced) -->
+                <article class="feed-card">
+                    <div class="card-header">
+                        <div class="user-info">
+                            <img src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=120&h=120&fit=crop" alt="Alex" class="user-avatar">
+                            <div class="user-details">
+                                <div class="user-name">
+                                    Alex Morrison
+                                    <span class="badge-pro">PRO</span>
+                                </div>
+                                <div class="post-meta">
+                                    <span class="user-title">Senior UI Designer</span>
+                                    <span class="post-time">2h ago</span>
+                                </div>
+                            </div>
+                        </div>
+                        <button class="btn-icon">
+                            <i class="bi bi-three-dots"></i>
+                        </button>
+                    </div>
+
+                    <div class="card-content">
+                        <div class="content-text">
+                            <p>Just finished this dashboard design for a fintech client. What do you think? 🎨</p>
+                        </div>
+                        <div class="content-preview">
+                            <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=1200&h=800&fit=crop" alt="Dashboard Design">
+                        </div>
+                    </div>
+
+                    <div class="card-stats">
+                        <div class="stat-group">
+                            <button class="stat-btn">
+                                <i class="bi bi-heart"></i>
+                                <span>2.4k</span>
+                            </button>
+                            <button class="stat-btn">
+                                <i class="bi bi-chat"></i>
+                                <span>128</span>
+                            </button>
+                            <button class="stat-btn">
+                                <i class="bi bi-share"></i>
+                                <span>46</span>
+                            </button>
+                        </div>
+                        <button class="stat-btn">
+                            <i class="bi bi-bookmark"></i>
+                        </button>
+                    </div>
+                </article>
+                <!-- More feed cards -->
+            </section>
+        </main>
+
+        <!-- Right Sidebar -->
+        <aside class="right-sidebar">
+            <section class="trending-topics">
+                <h3>Trending Topics</h3>
+                <div class="topic-list">
+                    <div class="topic-item">
+                        <div class="topic-info">
+                            <span class="topic-tag">#DesignSystem</span>
+                            <span class="topic-count">2.4k posts</span>
+                        </div>
+                        <i class="bi bi-arrow-up-right"></i>
+                    </div>
+                    <div class="topic-item">
+                        <div class="topic-info">
+                            <span class="topic-tag">#UXDesign</span>
+                            <span class="topic-count">1.8k posts</span>
+                        </div>
+                        <i class="bi bi-arrow-up-right"></i>
+                    </div>
+                    <div class="topic-item">
+                        <div class="topic-info">
+                            <span class="topic-tag">#Figma</span>
+                            <span class="topic-count">956 posts</span>
+                        </div>
+                        <i class="bi bi-arrow-up-right"></i>
+                    </div>
+                    <div class="topic-item">
+                        <div class="topic-info">
+                            <span class="topic-tag">#WebDesign</span>
+                            <span class="topic-count">845 posts</span>
+                        </div>
+                        <i class="bi bi-arrow-up-right"></i>
+                    </div>
+                </div>
+            </section>
+
+            <section class="suggested-connections">
+                <h3>Suggested Connections</h3>
+                <div class="connection-list">
+                    <div class="connection-item">
+                        <div class="user-info-wrapper">
+                            <img src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=120&h=120&fit=crop" alt="Sarah" class="user-avatar">
+                            <div class="connection-info">
+                                <span class="connection-name">Sarah Chen</span>
+                                <span class="connection-title">Product Designer</span>
+                            </div>
+                        </div>
+                        <button class="btn btn-outline btn-small">Connect</button>
+                    </div>
+                    <div class="connection-item">
+                        <img src="https://images.unsplash.com/photo-1517841905240-472988babdf9?w=120&h=120&fit=crop" alt="Emma" class="user-avatar">
+                        <div class="connection-info">
+                            <span class="connection-name">Emma Watson</span>
+                            <span class="connection-title">UX Researcher</span>
+                        </div>
+                        <button class="btn btn-outline btn-small">Connect</button>
+                    </div>
+                    <div class="connection-item">
+                        <img src="https://images.unsplash.com/photo-1539571696357-5a69c17a67c6?w=120&h=120&fit=crop" alt="Jack" class="user-avatar">
+                        <div class="connection-info">
+                            <span class="connection-name">Jack Wilson</span>
+                            <span class="connection-title">UI Developer</span>
+                        </div>
+                        <button class="btn btn-outline btn-small">Connect</button>
+                    </div>
+                    <div class="connection-item">
+                        <img src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=120&h=120&fit=crop" alt="Anna" class="user-avatar">
+                        <div class="connection-info">
+                            <span class="connection-name">Anna Kim</span>
+                            <span class="connection-title">Brand Designer</span>
+                        </div>
+                        <button class="btn btn-outline btn-small">Connect</button>
+                    </div>
+                </div>
+            </section>
+        </aside>
+    </div>
+
+    <!-- Add before closing body tag -->
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            setTimeout(function() {
+                const loader = document.querySelector('.loader-container');
+                loader.classList.add('fade-out');
+                
+                setTimeout(function() {
+                    loader.style.display = 'none';
+                }, 500);
+            }, 2000);
+        });
+    </script>
+</body>
+</html> 

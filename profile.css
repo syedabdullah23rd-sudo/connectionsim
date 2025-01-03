@@ -1,0 +1,394 @@
+.profile-container {
+    max-width: 1128px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.profile-header {
+    background: var(--white);
+    border-radius: 8px;
+    border: 1px solid var(--border-color);
+    margin-bottom: 24px;
+    overflow: hidden;
+}
+
+.profile-cover {
+    height: 200px;
+    position: relative;
+}
+
+.profile-cover img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.edit-cover-btn,
+.edit-avatar-btn {
+    position: absolute;
+    background: rgba(255,255,255,0.9);
+    border: none;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: all 0.2s;
+}
+
+.edit-cover-btn {
+    right: 24px;
+    top: 24px;
+}
+
+.profile-info-container {
+    padding: 0 24px 24px;
+}
+
+.profile-basics {
+    display: flex;
+    justify-content: space-between;
+    margin-top: -90px;
+}
+
+.profile-avatar {
+    width: 160px;
+    height: 160px;
+    border-radius: 50%;
+    border: 4px solid white;
+    position: relative;
+    background: white;
+}
+
+.profile-avatar img {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.edit-avatar-btn {
+    bottom: 5px;
+    right: 5px;
+}
+
+.profile-actions {
+    display: flex;
+    gap: 8px;
+    align-items: flex-start;
+    margin-top: 100px;
+}
+
+.profile-actions button {
+    padding: 6px 16px;
+    border-radius: 16px;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    cursor: pointer;
+    transition: all 0.2s;
+}
+
+.edit-profile-btn,
+.connect-btn {
+    background: var(--primary-color);
+    color: white;
+    border: none;
+}
+
+.follow-btn {
+    background: transparent;
+    border: 1px solid var(--primary-color);
+    color: var(--primary-color);
+}
+
+.follow-btn.following {
+    background: var(--hover-bg);
+    color: var(--text-color);
+    border-color: var(--border-color);
+}
+
+.more-btn {
+    width: 40px;
+    height: 40px;
+    padding: 0;
+    border-radius: 50%;
+    border: 1px solid var(--border-color);
+    background: transparent;
+}
+
+.profile-title {
+    margin-top: 16px;
+}
+
+.profile-title h1 {
+    font-size: 24px;
+    font-weight: 600;
+    margin: 0 0 4px;
+}
+
+.headline {
+    font-size: 16px;
+    color: rgba(0,0,0,0.9);
+    display: block;
+    margin-bottom: 8px;
+}
+
+.location-info,
+.connection-info {
+    color: rgba(0,0,0,0.6);
+    font-size: 14px;
+    display: flex;
+    gap: 24px;
+    margin-bottom: 4px;
+}
+
+.contact-info {
+    color: var(--primary-color);
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.profile-content-grid {
+    display: grid;
+    grid-template-columns: 1fr 300px;
+    gap: 24px;
+}
+
+.profile-section {
+    background: var(--white);
+    border-radius: 8px;
+    border: 1px solid var(--border-color);
+    padding: 24px;
+    margin-bottom: 24px;
+}
+
+.profile-section h2 {
+    font-size: 20px;
+    font-weight: 600;
+    margin: 0 0 16px;
+}
+
+.activity-filters {
+    display: flex;
+    gap: 24px;
+    margin-bottom: 16px;
+    border-bottom: 1px solid var(--border-color);
+    padding-bottom: 8px;
+}
+
+.activity-filters span {
+    color: rgba(0,0,0,0.6);
+    cursor: pointer;
+    padding: 8px 0;
+    position: relative;
+}
+
+.activity-filters span.active {
+    color: var(--primary-color);
+}
+
+.activity-filters span.active::after {
+    content: '';
+    position: absolute;
+    bottom: -9px;
+    left: 0;
+    right: 0;
+    height: 2px;
+    background: var(--primary-color);
+}
+
+/* Main Layout */
+.main-content {
+    padding-top: 52px;
+    margin-left: 300px;
+    background: #f3f2ef;
+    min-height: 100vh;
+}
+
+.profile-wrapper {
+    max-width: 1128px;
+    margin: 0 auto;
+    padding: 24px 16px;
+}
+
+/* Profile Background Card */
+.profile-background-card {
+    background: white;
+    border-radius: 8px;
+    border: 1px solid #dce1e6;
+    margin-bottom: 16px;
+    position: relative;
+    padding-bottom: 24px;
+}
+
+.background-image {
+    height: 200px;
+    position: relative;
+}
+
+.background-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 8px 8px 0 0;
+}
+
+.edit-background,
+.edit-photo {
+    position: absolute;
+    background: white;
+    border: none;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: all 0.2s;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+}
+
+.edit-background {
+    right: 16px;
+    top: 16px;
+}
+
+.profile-photo {
+    position: absolute;
+    left: 24px;
+    top: 120px;
+    width: 160px;
+    height: 160px;
+    border: 4px solid white;
+    border-radius: 50%;
+    background: white;
+}
+
+.profile-photo img {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.edit-photo {
+    bottom: 5px;
+    right: 5px;
+}
+
+.profile-actions {
+    display: flex;
+    gap: 8px;
+    position: absolute;
+    right: 24px;
+    top: 220px;
+}
+
+.profile-actions button {
+    padding: 6px 16px;
+    border-radius: 16px;
+    font-size: 16px;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    cursor: pointer;
+    transition: all 0.2s;
+}
+
+.connect-btn,
+.open-to-btn {
+    background: var(--primary-color);
+    color: white;
+    border: none;
+}
+
+.message-btn,
+.add-profile-btn {
+    border: 1px solid var(--primary-color);
+    color: var(--primary-color);
+    background: white;
+}
+
+.more-btn {
+    border: 1px solid rgba(0,0,0,0.6);
+    color: rgba(0,0,0,0.6);
+    background: transparent;
+}
+
+/* Profile Grid Layout */
+.profile-grid {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) 300px;
+    gap: 24px;
+}
+
+/* Profile Cards */
+.profile-card {
+    background: white;
+    border-radius: 8px;
+    border: 1px solid #dce1e6;
+    padding: 24px;
+    margin-bottom: 16px;
+}
+
+.card-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 16px;
+}
+
+.card-header h2 {
+    font-size: 20px;
+    font-weight: 600;
+    color: rgba(0,0,0,0.9);
+}
+
+.header-actions {
+    display: flex;
+    gap: 8px;
+}
+
+.edit-btn,
+.add-btn {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: none;
+    background: transparent;
+    color: rgba(0,0,0,0.6);
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.2s;
+}
+
+.edit-btn:hover,
+.add-btn:hover {
+    background: rgba(0,0,0,0.08);
+}
+
+.skill-quiz-btn {
+    padding: 6px 16px;
+    border-radius: 16px;
+    border: none;
+    background: rgba(0,0,0,0.08);
+    color: rgba(0,0,0,0.6);
+    font-weight: 600;
+    cursor: pointer;
+}
+
+/* Sidebar Cards */
+.sidebar-card h3 {
+    font-size: 16px;
+    font-weight: 600;
+    color: rgba(0,0,0,0.9);
+    margin-bottom: 16px;
+} 

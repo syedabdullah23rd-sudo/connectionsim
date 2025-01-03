@@ -1,0 +1,151 @@
+[23-Dec-2024 14:50:06 Europe/Berlin] Story upload started - POST data: Array
+(
+)
+
+[23-Dec-2024 14:50:06 Europe/Berlin] FILES data: Array
+(
+    [story_media] => Array
+        (
+            [name] => wasiqimg.jpg
+            [type] => image/jpeg
+            [tmp_name] => C:\xampp\tmp\phpFF85.tmp
+            [error] => 0
+            [size] => 137001
+        )
+
+)
+
+[23-Dec-2024 14:50:06 Europe/Berlin] File type: image/jpeg
+[23-Dec-2024 14:50:06 Europe/Berlin] Attempting to move file to: uploads/stories/67696a8e7fbe1_1734961806.jpg
+[23-Dec-2024 14:50:06 Europe/Berlin] File moved successfully
+[23-Dec-2024 14:50:06 Europe/Berlin] Story upload error: Prepare failed: Unknown column 'media_type' in 'field list'
+[23-Dec-2024 14:50:06 Europe/Berlin] Cleaned up file: uploads/stories/67696a8e7fbe1_1734961806.jpg
+[23-Dec-2024 14:51:58 Europe/Berlin] Story upload started - POST data: Array
+(
+)
+
+[23-Dec-2024 14:51:58 Europe/Berlin] FILES data: Array
+(
+    [story_media] => Array
+        (
+            [name] => wasiqimg.jpg
+            [type] => image/jpeg
+            [tmp_name] => C:\xampp\tmp\phpB360.tmp
+            [error] => 0
+            [size] => 137001
+        )
+
+)
+
+[23-Dec-2024 14:51:58 Europe/Berlin] File type: image/jpeg
+[23-Dec-2024 14:51:58 Europe/Berlin] Attempting to move file to: uploads/stories/67696afe1834f_1734961918.jpg
+[23-Dec-2024 14:51:58 Europe/Berlin] File moved successfully
+[23-Dec-2024 14:51:58 Europe/Berlin] Story upload error: Prepare failed: Unknown column 'media_type' in 'field list'
+[23-Dec-2024 14:51:58 Europe/Berlin] Cleaned up file: uploads/stories/67696afe1834f_1734961918.jpg
+[23-Dec-2024 14:53:33 Europe/Berlin] Story upload started - POST data: Array
+(
+)
+
+[23-Dec-2024 14:53:33 Europe/Berlin] FILES data: Array
+(
+    [story_media] => Array
+        (
+            [name] => wasiqimg.jpg
+            [type] => image/jpeg
+            [tmp_name] => C:\xampp\tmp\php283E.tmp
+            [error] => 0
+            [size] => 137001
+        )
+
+)
+
+[23-Dec-2024 14:53:33 Europe/Berlin] File type: image/jpeg
+[23-Dec-2024 14:53:33 Europe/Berlin] Attempting to move file to: uploads/stories/67696b5d80c94_1734962013.jpg
+[23-Dec-2024 14:53:33 Europe/Berlin] File moved successfully
+[23-Dec-2024 14:53:33 Europe/Berlin] Story upload error: Prepare failed: Unknown column 'media_type' in 'field list'
+[23-Dec-2024 14:53:33 Europe/Berlin] Cleaned up file: uploads/stories/67696b5d80c94_1734962013.jpg
+[23-Dec-2024 14:57:24 Europe/Berlin] Story upload started - POST data: Array
+(
+)
+
+[23-Dec-2024 14:57:24 Europe/Berlin] FILES data: Array
+(
+    [story_media] => Array
+        (
+            [name] => wasiqimg.jpg
+            [type] => image/jpeg
+            [tmp_name] => C:\xampp\tmp\phpAF33.tmp
+            [error] => 0
+            [size] => 137001
+        )
+
+)
+
+[23-Dec-2024 14:57:24 Europe/Berlin] File type: image/jpeg
+[23-Dec-2024 14:57:24 Europe/Berlin] Attempting to move file to: uploads/stories/67696c44aa407_1734962244.jpg
+[23-Dec-2024 14:57:24 Europe/Berlin] File moved successfully
+[23-Dec-2024 14:57:24 Europe/Berlin] Story upload error: Prepare failed: Unknown column 'media_type' in 'field list'
+[23-Dec-2024 14:57:24 Europe/Berlin] Cleaned up file: uploads/stories/67696c44aa407_1734962244.jpg
+[23-Dec-2024 15:03:30 Europe/Berlin] Story upload started - POST data: Array
+(
+)
+
+[23-Dec-2024 15:03:30 Europe/Berlin] FILES data: Array
+(
+    [story_media] => Array
+        (
+            [name] => wasiqimg.jpg
+            [type] => image/jpeg
+            [tmp_name] => C:\xampp\tmp\php4477.tmp
+            [error] => 0
+            [size] => 137001
+        )
+
+)
+
+[23-Dec-2024 15:03:30 Europe/Berlin] File type: image/jpeg
+[23-Dec-2024 15:03:30 Europe/Berlin] Attempting to move file to: uploads/stories/67696db28ef49_1734962610.jpg
+[23-Dec-2024 15:03:30 Europe/Berlin] File moved successfully
+[23-Dec-2024 15:03:30 Europe/Berlin] Story saved successfully with ID: 1
+[24-Dec-2024 12:09:39 Europe/Berlin] Story upload started - POST data: Array
+(
+)
+
+[24-Dec-2024 12:09:39 Europe/Berlin] FILES data: Array
+(
+    [story_media] => Array
+        (
+            [name] => barat suit.jpg
+            [type] => image/jpeg
+            [tmp_name] => C:\xampp\tmp\php73FC.tmp
+            [error] => 0
+            [size] => 174198
+        )
+
+)
+
+[24-Dec-2024 12:09:39 Europe/Berlin] File type: image/jpeg
+[24-Dec-2024 12:09:39 Europe/Berlin] Attempting to move file to: uploads/stories/676a967319134_1735038579.jpg
+[24-Dec-2024 12:09:39 Europe/Berlin] File moved successfully
+[24-Dec-2024 12:09:39 Europe/Berlin] Story saved successfully with ID: 2
+[03-Jan-2025 12:06:58 Europe/Berlin] Story upload started - POST data: Array
+(
+)
+
+[03-Jan-2025 12:06:58 Europe/Berlin] FILES data: Array
+(
+    [story_media] => Array
+        (
+            [name] => IMG-20240412-WA0009.jpg
+            [type] => image/jpeg
+            [tmp_name] => C:\xampp\tmp\php4962.tmp
+            [error] => 0
+            [size] => 132383
+        )
+
+)
+
+[03-Jan-2025 12:06:58 Europe/Berlin] File type: image/jpeg
+[03-Jan-2025 12:06:58 Europe/Berlin] Attempting to move file to: uploads/stories/6777c4d22783b_1735902418.jpg
+[03-Jan-2025 12:06:58 Europe/Berlin] File moved successfully
+[03-Jan-2025 12:06:58 Europe/Berlin] Story saved successfully with ID: 3

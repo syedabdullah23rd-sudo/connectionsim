@@ -1,0 +1,10 @@
+{
+    "name": "connectionzim/website",
+    "description": "ConnectionZim Social Network",
+    "type": "project",
+    "require": {
+        "phpmailer/phpmailer": "^6.9"
+    },
+    "license": "MIT",
+    "minimum-stability": "stable"
+}
